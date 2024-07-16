@@ -2,11 +2,11 @@ from calsses import Categoria
 
 muito_abaixo = Categoria('M_A', None, 16.9, 'Muito abaixo', '#F8F8FF')
 
-abaixo = Categoria('A', 17, 18.5, 'Abaixo do peso', '#90EE90')
+abaixo = Categoria('AB', 17, 18.5, 'Abaixo do peso', '#90EE90')
 
 normal = Categoria('N', 18.5, 24.9, 'Peso normal', '#008000')
 
-acima = Categoria('A', 25, 29.9, 'Acima do peso', '#F0E68C')
+acima = Categoria('AC', 25, 29.9, 'Acima do peso', '#F0E68C')
 
 obesidade1 = Categoria('O1', 30, 34.9, 'Obesidade', '#FFA500')
 
