@@ -17,9 +17,10 @@ obesidade3 = Categoria('O3', 40, None, 'Obesidade III', '#FF4500')
 categorias_lista = [muito_abaixo, abaixo, normal, acima, obesidade1, obesidade2, obesidade3]
 
 def encontrar_categoria(imc):
-    for categoria in categorias_lista:
+    for i, categoria in enumerate(categorias_lista):
         verificar = categoria.verificar_se_pertence_a_categoria(imc=imc)
-        if verificar:
+        if verificar is True:
             return categoria
         else:
-            print('Categoria não encontrada')
+            if i == (len(categorias_lista ) - 1):
+                print('Categoria não encontrada')
