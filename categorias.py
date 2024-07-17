@@ -1,4 +1,4 @@
-from calsses import Categoria
+from classes import Categoria
 
 muito_abaixo = Categoria('M_A', None, 16.9, 'Muito abaixo', '#F8F8FF')
 
@@ -19,5 +19,7 @@ categorias_lista = [muito_abaixo, abaixo, normal, acima, obesidade1, obesidade2,
 def encontrar_categoria(imc):
     for categoria in categorias_lista:
         verificar = categoria.verificar_se_pertence_a_categoria(imc=imc)
-        if verificar == True:
+        if verificar:
             return categoria
+        else:
+            print('Categoria não encontrada')
