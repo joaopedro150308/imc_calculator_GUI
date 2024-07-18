@@ -4,7 +4,7 @@
 - Conta com uma GUI (interface gráfica).
 
 # Porque eu usaria este programa
-- Um programa muito útil caso você deseje identificar rapidamente sua situação em relação ao seu peso, de forma rápida e eficiente.
+- Um programa muito útil caso você deseje identificar sua situação em relação ao seu peso, de forma rápida e eficiente.
 
 - Conta com uma interface gráfica, o que auxilia na produtividade, dinâmica e acessibilidade do programa.
 
