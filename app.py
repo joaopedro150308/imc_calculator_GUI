@@ -1,4 +1,4 @@
-from interface import iniciar_interface
+from front_end.interface import iniciar_interface
 
 iniciar_interface()
 print('Fim do programa')

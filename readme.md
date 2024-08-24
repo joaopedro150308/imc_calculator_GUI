@@ -14,6 +14,8 @@
 - Rode o programa com a linha:
 ```python app.py```
 
+- Ou simplesmente execute o arquivo ```Calcular IMC.exe```
+
 - Em seguida preencha os campos:
     -  Peso
     -  Altura
